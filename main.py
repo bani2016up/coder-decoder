@@ -1,6 +1,6 @@
-# How this should work: 
-# 1) user enters a world/letter/sentence 
-# 2) programm translates with a dic 
+# How this should work:
+# 1) user enters a world/letter/sentence
+# 2) programm translates with a dic
 # 3) print result
 
 import random
@@ -19,8 +19,8 @@ def coder(phrase, use_key):
         mass = list(use_key)
 
     mass3 = list(phrase)
-    print(
-        ''.join(mass))
+    print('we will use this coder: ' +
+          ''.join(mass))
 
     out_put = ''
     for i in mass3:
@@ -32,7 +32,6 @@ def coder(phrase, use_key):
             out_put += str(mass2.index(i)) + ' '
 
     out_put = out_put.split()
-    print(out_put)
     coded = ''
     for i in out_put:
         if int(i) == 26:
@@ -57,7 +56,6 @@ def decoder(phrase, key):
             out_put += str(key.index(i)) + ' '
 
     out_put = out_put.split()
-    print(out_put)
     message = ''
     for i in out_put:
         if int(i) == 26:
