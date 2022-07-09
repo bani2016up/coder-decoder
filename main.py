@@ -1,8 +1,7 @@
-# How this should worck:
-# 1) user enters a world/letter/sentence
-# 2) programm tranclates whith a dic
-# 3) print result abcdefghijklmnopqrstuvwxyz
-
+# How this should work: 
+# 1) user enters a world/letter/sentence 
+# 2) programm translates with a dic 
+# 3) print result
 
 import random
 
