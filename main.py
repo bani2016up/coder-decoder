@@ -21,7 +21,7 @@ def coder(phrase, use_key):
 
     mass3 = list(phrase)
     print(
-    ''.join(mass))
+        ''.join(mass))
 
     out_put = ''
     for i in mass3:
@@ -88,7 +88,7 @@ def regim(p_key):
         set_regim = int(input(
             'Please tell, what you would like to do.\n[1 - cod meassege / 2 - decod measege]: '))
         if set_regim == 1:
-           coder(input('phrase to cod: '), ''.join(p_key)) 
+            coder(input('phrase to cod: '), ''.join(p_key))
         elif set_regim == 2:
             decoder(input('phrase to cod: '), ''.join(p_key))
     else:
